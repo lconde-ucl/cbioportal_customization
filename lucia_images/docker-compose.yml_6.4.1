@@ -8,6 +8,7 @@ services:
     environment:
       SHOW_DEBUG_INFO: "true"
       PORTAL_HOME: "/cbioportal-webapp"
+      SECURITY_CORS_ALLOWED_ORIGINS: "*"
     ports:
       - "8080:8080"
     volumes:
